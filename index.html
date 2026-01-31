@@ -2,35 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pair Review System Demo</title>
+    <title>Pair Review Blog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Pair Review System Demo</h1>
-        <p>A simple website showing assignments and peer review workflow</p>
+
+    <!-- ================= HERO / LANDING SECTION ================= -->
+    <header class="hero">
+        <h1>Pair Review Blog</h1>
+        <p>
+            A simple website demonstrating a pair review system using GitHub
+            Pull Requests and collaborative content review.
+        </p>
     </header>
 
     <main>
-        <section class="assignment">
-            <h2>Your Assignment</h2>
-            <p id="your-assignment">
-                <!-- Replace this with your content -->
-                This is a sample assignment by Oluwadamilola.
-            </p>
+
+        <!-- ================= YOUR SECTION ================= -->
+        <!-- OWNER: YOU (Oluwadamilola) -->
+        <!-- EDIT ONLY YOUR CARDS -->
+        <section class="contributor-section">
+            <h1>Contributor A – Oluwadamilola</h1>
+
+            <div class="card-container">
+
+                <!-- CARD 1 -->
+                <article class="card">
+                    <img src="https://via.placeholder.com/300x180" alt="Card image">
+                    <p>
+                        This is my first submission card. It represents content
+                        that will be reviewed by my partner through a Pull Request.
+                    </p>
+                </article>
+
+                <!-- CARD 2 -->
+                <article class="card">
+                    <img src="https://via.placeholder.com/300x180" alt="Card image">
+                    <p>
+                        Second submission. Changes to this card should go through
+                        GitHub PR review before being merged.
+                    </p>
+                </article>
+
+                <!-- CARD 3 -->
+                <article class="card">
+                    <img src="https://via.placeholder.com/300x180" alt="Card image">
+                    <p>
+                        Third submission card for Contributor A.
+                    </p>
+                </article>
+
+            </div>
         </section>
 
-        <section class="assignment">
-            <h2>Partner's Assignment</h2>
-            <p id="partner-assignment">
-                <!-- Replace this with partner content -->
-                This is a sample assignment by Partner.
-            </p>
+        <!-- ================= PARTNER SECTION ================= -->
+        <!-- OWNER: PARTNER (Non-Developer) -->
+        <!-- EDIT ONLY YOUR CARDS -->
+        <section class="contributor-section">
+            <h2>Contributor B – Partner</h2>
+
+            <div class="card-container">
+
+                <!-- CARD 1 -->
+                <article class="card">
+                    <img src="https://via.placeholder.com/300x180" alt="Card image">
+                    <p>
+                        This is the partner’s first submission card.
+                        Content here is reviewed by Contributor A.
+                    </p>
+                </article>
+
+                <!-- CARD 2 -->
+                <article class="card">
+                    <img src="https://via.placeholder.com/300x180" alt="Card image">
+                    <p>
+                        Second submission by the partner.
+                    </p>
+                </article>
+
+                <!-- CARD 3 (OPTIONAL) -->
+                <article class="card">
+                    <img src="https://via.placeholder.com/300x180" alt="Card image">
+                    <p>
+                        Optional third card for Contributor B.
+                    </p>
+                </article>
+
+            </div>
         </section>
+
     </main>
 
-    <footer>
-        <p>Pair Review System Demo &copy; 2026</p>
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <p>Contact: example@email.com</p>
+        <p>
+            Documentation:
+            <a href="docs.html" target="_blank">Pair Review System Docs</a>
+        </p>
+        <p>© 2026 Pair Review System Demo</p>
     </footer>
+
 </body>
 </html>
