@@ -1,107 +1,157 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Pair Review Blog</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Peer Review Blog</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <!-- ================= HERO / LANDING SECTION ================= -->
+  <header class="hero">
+    <h1>Peer Review Blog</h1>
+    <p>
+      A simple demonstration of a Peer Review System using GitHub<br />
+      Pull Requests and collaborative content updates.
+    </p>
 
-    <!-- ================= HERO / LANDING SECTION ================= -->
-    <header class="hero">
-        <h1>Pair Review Blog</h1>
+    <a href="#intro" class="hero-btn">View Collaboration</a>
+
+    <!-- <p class="bounce">⏬</p> -->
+     <div class="scroll-indicator"></div>
+
+    <!-- <div class="dots">
+  <span></span><span></span><span></span> -->
+    </div>
+
+    <!--   -->
+  </header>
+
+  <main>
+    <!-- ================= YOUR SECTION ================= -->
+    <!-- OWNER: YOU (Oluwadamilola) -->
+    <!-- EDIT ONLY YOUR CARDS -->
+    <section class="contributor-section" id="intro">
+      <h1>Introduction to P.R.S</h1>
+
+      <article class="intro">
+        <h3><span class="italic">~By Oluwadamilola</span></h3>
+
         <p>
-            A simple website demonstrating a pair review system using GitHub
-            Pull Requests and collaborative content review.
+          The Peer Review System (PRS), commonly implemented through code
+          reviews and GitHub pull requests, is a fundamental practice in
+          modern software development. It allows developers to examine each
+          other’s work before it is merged into a shared codebase. By
+          introducing a second perspective, teams can identify errors, enforce
+          coding standards, and improve overall code clarity. This
+          collaborative process not only enhances software quality but also
+          promotes knowledge sharing and accountability within development
+          teams.
         </p>
-    </header>
+      </article>
 
-    <main>
+      <h2>Importance of P.R.S</h2>
+      <div class="card-container">
+        <!-- CARD 1 -->
+        <article class="card">
+          <h3>Enhancing Code Quality</h3>
+          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
+          <p>
+            Peer reviews help identify defects, logical errors, and edge cases
+            early in development, reducing the cost and impact of fixing
+            issues after deployment.
+          </p>
+        </article>
 
-        <!-- ================= YOUR SECTION ================= -->
-        <!-- OWNER: YOU (Oluwadamilola) -->
-        <!-- EDIT ONLY YOUR CARDS -->
-        <section class="contributor-section">
-            <h1>Contributor A – Oluwadamilola</h1>
+        <!-- CARD 2 -->
+        <article class="card">
+          <h3>Team Collaboration</h3>
+          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
+          <p>
+            Code reviews ensure that multiple team members understand
+            different parts of the codebase, reducing dependency on a single
+            developer for critical systems.
+          </p>
+        </article>
 
-            <div class="card-container">
+        <!-- CARD 3 -->
+        <article class="card">
+          <h3>Risk Mitigation and Security</h3>
+          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
+          <p>
+            Peer reviewers can identify potential security flaws, such as
+            improper authentication, hardcoded secrets, or SQL injection
+            risks, before the code is deployed.
+          </p>
+        </article>
+      </div>
+    </section>
 
-                <!-- CARD 1 -->
-                <article class="card">
-                    <img src="https://via.placeholder.com/300x180" alt="Card image">
-                    <p>
-                        This is my first submission card. It represents content
-                        that will be reviewed by my partner through a Pull Request.
-                    </p>
-                </article>
+    <!-- ================= Your Section ================= -->
+    <!-- OWNER: PARTNER (Non-Developer) -->
+    <!-- EDIT ONLY YOUR CARDS -->
+    <section class="contributor-section">
+      <h2>Contributor B – Partner</h2>
 
-                <!-- CARD 2 -->
-                <article class="card">
-                    <img src="https://via.placeholder.com/300x180" alt="Card image">
-                    <p>
-                        Second submission. Changes to this card should go through
-                        GitHub PR review before being merged.
-                    </p>
-                </article>
+      <div class="card-container">
+        <!-- CARD 1 -->
+        <article class="card">
+          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
+          <p>
+            This is the partner’s first submission card. Content here is
+            reviewed by Contributor A.
+          </p>
+        </article>
 
-                <!-- CARD 3 -->
-                <article class="card">
-                    <img src="https://via.placeholder.com/300x180" alt="Card image">
-                    <p>
-                        Third submission card for Contributor A.
-                    </p>
-                </article>
+        <!-- CARD 2 -->
+        <article class="card">
+          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
+          <p>Second submission by the partner.</p>
+        </article>
 
-            </div>
-        </section>
+        <!-- CARD 3 (OPTIONAL) -->
+        <article class="card">
+          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
+          <p>Optional third card for Contributor B.</p>
+        </article>
+      </div>
+    </section>
+  </main>
 
-        <!-- ================= PARTNER SECTION ================= -->
-        <!-- OWNER: PARTNER (Non-Developer) -->
-        <!-- EDIT ONLY YOUR CARDS -->
-        <section class="contributor-section">
-            <h2>Contributor B – Partner</h2>
+  <!-- ================= FOOTER ================= -->
+ <footer class="footer">
+  <div class="footer-grid">
+    
+    <div class="footer-block">
+      <h4>Project</h4>
+      <p>Peer Review System Blog</p>
+      <p>Built using Git & GitHub Pull Requests</p>
+    </div>
 
-            <div class="card-container">
+    <div class="footer-block">
+      <h4>Contributors</h4>
+      <p>Oluwadamilola (Developer)</p>
+      <p>Partner (Content Contributor)</p>
+    </div>
 
-                <!-- CARD 1 -->
-                <article class="card">
-                    <img src="https://via.placeholder.com/300x180" alt="Card image">
-                    <p>
-                        This is the partner’s first submission card.
-                        Content here is reviewed by Contributor A.
-                    </p>
-                </article>
+    <div class="footer-block">
+      <h4>Resources</h4>
+      <a href="https://github.com/W-code81/pair-review-system#readme" target="_blank">Documentation</a>
+      <a href="#">GitHub Repository</a>
+    </div>
 
-                <!-- CARD 2 -->
-                <article class="card">
-                    <img src="https://via.placeholder.com/300x180" alt="Card image">
-                    <p>
-                        Second submission by the partner.
-                    </p>
-                </article>
+  </div>
 
-                <!-- CARD 3 (OPTIONAL) -->
-                <article class="card">
-                    <img src="https://via.placeholder.com/300x180" alt="Card image">
-                    <p>
-                        Optional third card for Contributor B.
-                    </p>
-                </article>
+  <div class="footer-bottom">
+    <p>© 2026 • Academic Project</p>
+  </div>
+</footer>
 
-            </div>
-        </section>
 
-    </main>
-
-    <!-- ================= FOOTER ================= -->
-    <footer class="footer">
-        <p>Contact: example@email.com</p>
-        <p>
-            Documentation:
-            <a href="docs.html" target="_blank">Pair Review System Docs</a>
-        </p>
-        <p>© 2026 Pair Review System Demo</p>
-    </footer>
-
+  <!-- Scroll Reveal CDN -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
