@@ -36,7 +36,7 @@
       <h1>Introduction to P.R.S</h1>
 
       <article class="intro">
-        <h3><span class="italic">~By Oluwadamilola</span></h3>
+        <h3><span class="italic">~By Oluwadamilola and Precious</span></h3>
 
         <p>
           The Peer Review System (PRS), commonly implemented through code
@@ -51,69 +51,69 @@
         </p>
       </article>
 
-      <h2>Importance of P.R.S</h2>
+      <h2>Key Prompts and Commands used in P.R.S</h2>
       <div class="card-container">
         <!-- CARD 1 -->
         <article class="card">
-          <h3>Enhancing Code Quality</h3>
+          <h3>Creating and Submitting Pull Requests for Review</h3>
           <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
           <p>
-            Peer reviews help identify defects, logical errors, and edge cases
-            early in development, reducing the cost and impact of fixing
-            issues after deployment.
+            In GitHub’s peer-review system, the core prompts and commands revolve around creating and preparing a Pull Request (PR). Developers usually start by creating a new branch (git checkout -b feature-name), making changes, and recording them with git add and git commit. Once the work is ready for review, it is shared using git push origin feature-name, which triggers GitHub to display prompts such as “Compare & pull request”, “Create pull request”, and fields for the PR title and description. These prompts encourage contributors to clearly explain what was changed, why it was done, and how reviewers should test the update.
           </p>
         </article>
 
         <!-- CARD 2 -->
         <article class="card">
-          <h3>Team Collaboration</h3>
+          <h3>Code Review, Feedback, and Collaboration Workflow</h3>
           <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
           <p>
-            Code reviews ensure that multiple team members understand
-            different parts of the codebase, reducing dependency on a single
-            developer for critical systems.
+            The second group of prompts and actions focuses on reviewing and discussing code changes. Reviewers interact with buttons and prompts like “Add review”, “Comment”, “Approve”, and “Request changes”, allowing them to provide feedback at both file and line levels. Inline comment prompts help reviewers ask questions, suggest improvements, or flag issues directly in the code. On the command-line side, contributors often use commands such as git fetch, git pull, git rebase, or git merge to update their branch in response to review feedback, ensuring their changes remain compatible with the latest version of the base branch.
           </p>
         </article>
 
         <!-- CARD 3 -->
         <article class="card">
-          <h3>Risk Mitigation and Security</h3>
+          <h3>Approval, Quality Checks, and Merging</h3>
           <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
           <p>
-            Peer reviewers can identify potential security flaws, such as
-            improper authentication, hardcoded secrets, or SQL injection
-            risks, before the code is deployed.
+            The final section of the peer-review workflow involves final checks and merging. GitHub presents prompts like “All checks have passed”, “Resolve conversation”, and “Merge pull request”, which signal that feedback has been addressed and the code is ready to be integrated. Depending on the team’s rules, users may choose merge options such as “Create a merge commit”, “Squash and merge”, or “Rebase and merge”. After merging, optional prompts like “Delete branch” help keep the repository clean, marking the official completion of the peer-review process.
           </p>
         </article>
       </div>
     </section>
 
     <!-- ================= Your Section ================= -->
-    <!-- OWNER: PARTNER (Non-Developer) -->
+    <!-- OWNER: PRECIOUS -->
     <!-- EDIT ONLY YOUR CARDS -->
     <section class="contributor-section">
-      <h2>Contributor B – Partner</h2>
+      <h2>Key Benefits of P.R.S</h2>
 
       <div class="card-container">
         <!-- CARD 1 -->
         <article class="card">
+          <h3>Improves Code Quality and Reliability</h3>
           <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
           <p>
-            This is the partner’s first submission card. Content here is
-            reviewed by Contributor A.
+            The GitHub peer-review system improves code quality and reliability by introducing a structured checkpoint before changes are merged into the main branch. Through pull requests, other developers review the code to catch bugs, logical errors, security issues, and edge cases that the original author may have missed. Reviewers also suggest cleaner implementations, better naming conventions, and improved structure, which leads to more readable, maintainable, and stable code. This process significantly reduces the risk of faulty or insecure code reaching production.
           </p>
         </article>
 
         <!-- CARD 2 -->
         <article class="card">
+          <h3>Strengthens Team Collaboration and Knowledge Sharing</h3>
           <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
-          <p>Second submission by the partner.</p>
+          <p>
+            Peer review also strengthens collaboration and knowledge sharing within a team. When developers review each other’s work, they gain insight into different parts of the codebase, reducing dependency on any single individual and improving overall system understanding. The discussion that happens in pull requests encourages thoughtful decision-making, constructive feedback, and shared ownership of the project. Over time, this builds stronger teamwork and helps align everyone with agreed-upon coding standards and best practices.
+          </p>
         </article>
 
         <!-- CARD 3 (OPTIONAL) -->
         <article class="card">
+          <h3>Supports Accountability and Long-Term Project Sustainability</h3>
           <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
-          <p>Optional third card for Contributor B.</p>
+          <p>
+            The GitHub peer-review system supports accountability, consistency, and long-term project sustainability. Every pull request creates a documented history of changes, including what was modified, why it was done, and who approved it, which is valuable for audits, debugging, and future development. For less experienced developers, peer review acts as a learning tool by providing guidance and mentorship through feedback. Combined with automated checks like tests and CI pipelines, peer review ensures consistent quality while helping developers grow and projects scale safely.
+          </p>
         </article>
       </div>
     </section>
