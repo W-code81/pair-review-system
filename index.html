@@ -19,7 +19,7 @@
     <a href="#intro" class="hero-btn">View Collaboration</a>
 
     <!-- <p class="bounce">⏬</p> -->
-     <div class="scroll-indicator"></div>
+    <div class="scroll-indicator"></div>
 
     <!-- <div class="dots">
   <span></span><span></span><span></span> -->
@@ -36,49 +36,56 @@
       <h1>Introduction to P.R.S</h1>
 
       <article class="intro">
-        <h3><span class="italic">~By Oluwadamilola and Precious</span></h3>
+  <h3><span class="italic">~By Oluwadamilola and Precious</span></h3>
 
-        <p>
-          The Peer Review System (PRS), commonly implemented through code
-          reviews and GitHub pull requests, is a fundamental practice in
-          modern software development. It allows developers to examine each
-          other’s work before it is merged into a shared codebase. By
-          introducing a second perspective, teams can identify errors, enforce
-          coding standards, and improve overall code clarity. This
-          collaborative process not only enhances software quality but also
-          promotes knowledge sharing and accountability within development
-          teams.
-        </p>
-      </article>
+  <p>
+    The Peer Review System (PRS) is a core practice in modern software development,
+    commonly carried out through GitHub pull requests. It allows developers to
+    review each other’s work before merging, helping teams catch errors, follow
+    coding standards, and improve code clarity. Beyond quality control, PRS
+    encourages collaboration, accountability, and shared understanding of the
+    codebase.
+  </p>
+</article>
+
 
       <h2>Key Prompts and Commands used in P.R.S</h2>
       <div class="card-container">
         <!-- CARD 1 -->
         <article class="card">
-          <h3>Creating and Submitting Pull Requests for Review</h3>
-          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
-          <p>
-            In GitHub’s peer-review system, the core prompts and commands revolve around creating and preparing a Pull Request (PR). Developers usually start by creating a new branch (git checkout -b feature-name), making changes, and recording them with git add and git commit. Once the work is ready for review, it is shared using git push origin feature-name, which triggers GitHub to display prompts such as “Compare & pull request”, “Create pull request”, and fields for the PR title and description. These prompts encourage contributors to clearly explain what was changed, why it was done, and how reviewers should test the update.
-          </p>
-        </article>
+  <h3>Creating Pull Requests</h3>
+  <p>
+    Developers begin by creating a new branch, making changes, and committing them.
+    After pushing the branch to GitHub, a Pull Request (PR) is opened using prompts
+    like “Compare & pull request” and “Create pull request”. The PR description
+    explains what was changed and how it should be reviewed.
+  </p>
+</article>
+
 
         <!-- CARD 2 -->
         <article class="card">
-          <h3>Code Review, Feedback, and Collaboration Workflow</h3>
-          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
-          <p>
-            The second group of prompts and actions focuses on reviewing and discussing code changes. Reviewers interact with buttons and prompts like “Add review”, “Comment”, “Approve”, and “Request changes”, allowing them to provide feedback at both file and line levels. Inline comment prompts help reviewers ask questions, suggest improvements, or flag issues directly in the code. On the command-line side, contributors often use commands such as git fetch, git pull, git rebase, or git merge to update their branch in response to review feedback, ensuring their changes remain compatible with the latest version of the base branch.
-          </p>
-        </article>
+  <h3>Review and Feedback</h3>
+  <p>
+    Reviewers use tools such as comments, approvals, and change requests to give
+    feedback directly on the code. Inline comments make discussions clear and
+    contextual. Authors may then update their work using commands like git pull,
+    git fetch, or git merge to respond to feedback.
+  </p>
+</article>
+
 
         <!-- CARD 3 -->
         <article class="card">
-          <h3>Approval, Quality Checks, and Merging</h3>
-          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
-          <p>
-            The final section of the peer-review workflow involves final checks and merging. GitHub presents prompts like “All checks have passed”, “Resolve conversation”, and “Merge pull request”, which signal that feedback has been addressed and the code is ready to be integrated. Depending on the team’s rules, users may choose merge options such as “Create a merge commit”, “Squash and merge”, or “Rebase and merge”. After merging, optional prompts like “Delete branch” help keep the repository clean, marking the official completion of the peer-review process.
-          </p>
-        </article>
+  <h3>Merging Changes</h3>
+  <p>
+    Once all feedback is resolved and checks pass, the PR can be merged into the
+    main branch. GitHub provides merge options such as merge commit, squash, or
+    rebase. After merging, the feature branch is usually deleted to keep the
+    repository clean.
+  </p>
+</article>
+
       </div>
     </section>
 
@@ -91,62 +98,68 @@
       <div class="card-container">
         <!-- CARD 1 -->
         <article class="card">
-          <h3>Improves Code Quality and Reliability</h3>
-          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
-          <p>
-            The GitHub peer-review system improves code quality and reliability by introducing a structured checkpoint before changes are merged into the main branch. Through pull requests, other developers review the code to catch bugs, logical errors, security issues, and edge cases that the original author may have missed. Reviewers also suggest cleaner implementations, better naming conventions, and improved structure, which leads to more readable, maintainable, and stable code. This process significantly reduces the risk of faulty or insecure code reaching production.
-          </p>
-        </article>
+  <h3>Improves Code Quality</h3>
+  <p>
+    Peer review helps catch bugs, security issues, and logical errors before code
+    reaches production. Reviewers also suggest cleaner structures and better naming,
+    leading to more readable and maintainable code.
+  </p>
+</article>
+
 
         <!-- CARD 2 -->
         <article class="card">
-          <h3>Strengthens Team Collaboration and Knowledge Sharing</h3>
-          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
-          <p>
-            Peer review also strengthens collaboration and knowledge sharing within a team. When developers review each other’s work, they gain insight into different parts of the codebase, reducing dependency on any single individual and improving overall system understanding. The discussion that happens in pull requests encourages thoughtful decision-making, constructive feedback, and shared ownership of the project. Over time, this builds stronger teamwork and helps align everyone with agreed-upon coding standards and best practices.
-          </p>
-        </article>
+  <h3>Encourages Collaboration</h3>
+  <p>
+    Reviewing each other’s work helps team members understand different parts of
+    the codebase. This reduces dependency on a single developer and promotes shared
+    ownership, discussion, and consistent coding practices.
+  </p>
+</article>
+
 
         <!-- CARD 3 (OPTIONAL) -->
         <article class="card">
-          <h3>Supports Accountability and Long-Term Project Sustainability</h3>
-          <!-- <img src="https://via.placeholder.com/300x180" alt="Card image" /> -->
-          <p>
-            The GitHub peer-review system supports accountability, consistency, and long-term project sustainability. Every pull request creates a documented history of changes, including what was modified, why it was done, and who approved it, which is valuable for audits, debugging, and future development. For less experienced developers, peer review acts as a learning tool by providing guidance and mentorship through feedback. Combined with automated checks like tests and CI pipelines, peer review ensures consistent quality while helping developers grow and projects scale safely.
-          </p>
-        </article>
+  <h3>Builds Accountability</h3>
+  <p>
+    Every pull request creates a record of changes, feedback, and approvals. This
+    history supports debugging, audits, and future development while helping less
+    experienced developers learn through constructive feedback.
+  </p>
+</article>
+
       </div>
     </section>
   </main>
 
   <!-- ================= FOOTER ================= -->
- <footer class="footer">
-  <div class="footer-grid">
-    
-    <div class="footer-block">
-      <h4>Project</h4>
-      <p>Peer Review System Blog</p>
-      <p>Built using Git & GitHub Pull Requests</p>
+  <footer class="footer">
+    <div class="footer-grid">
+
+      <div class="footer-block">
+        <h4>Project</h4>
+        <p>Peer Review System Blog</p>
+        <p>Built using Git & GitHub Pull Requests</p>
+      </div>
+
+      <div class="footer-block">
+        <h4>Contributors</h4>
+        <p><a href="https://github.com/W-code81" target="_blank">Oluwadamilola (Developer & Team Lead)</a></p>
+        <p><a href="https://github.com/Cyberpercy" target="_blank">Precious (Developer & Review Specialist)</a></p>
+      </div>
+
+      <div class="footer-block">
+        <h4>Resources</h4>
+        <a href="https://github.com/W-code81/pair-review-system#readme" target="_blank">Documentation</a>
+        <a href="https://github.com/W-code81/pair-review-system">GitHub Repository</a>
+      </div>
+
     </div>
 
-    <div class="footer-block">
-      <h4>Contributors</h4>
-      <p>Oluwadamilola (Developer)</p>
-      <p>Partner (Content Contributor)</p>
+    <div class="footer-bottom">
+      <p>© 2026 • Academic Project</p>
     </div>
-
-    <div class="footer-block">
-      <h4>Resources</h4>
-      <a href="https://github.com/W-code81/pair-review-system#readme" target="_blank">Documentation</a>
-      <a href="#">GitHub Repository</a>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2026 • Academic Project</p>
-  </div>
-</footer>
+  </footer>
 
 
   <!-- Scroll Reveal CDN -->
