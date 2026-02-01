@@ -5,10 +5,10 @@ This project demonstrates a simple Pair Review System using GitHub branches and 
 
 ## Participants & Roles
 - **Oluwadamilola (Developer):** Project setup, HTML/CSS structure, branch management, and Pull Request reviews
-- **Partner (Content Contributor):** Writes assigned content, updates designated sections, and participates in Pull Request reviews
+- **Precious (Developer and Reviewer):** Writes assigned content, updates designated sections, and participates in Pull Request reviews
 
 ## Workflow
-1. Each contributor creates a separate branch (e.g., `branch-oluwadamilola`, `branch-partner`)  
+1. Each contributor creates a separate branch (e.g., `branch-main`, `branch-precious`)  
 2. Contributors add or update content in their assigned section of `index.html`  
 3. A Pull Request is opened to merge changes into the `main` branch  
 4. The other contributor reviews the Pull Request and provides feedback using GitHub comments  
@@ -21,3 +21,7 @@ This project demonstrates a simple Pair Review System using GitHub branches and 
 - Update only your assigned section in `index.html`  
 - Commit and push changes to GitHub  
 - Open a Pull Request and review your partner’s submission
+
+## Review Evidence
+Partner content was reviewed and refined after merge to improve clarity and layout.
+Git history and commits show the review process.
