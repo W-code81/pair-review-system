@@ -1,22 +1,23 @@
 # Pair Review System Demo
 
 ## Project Overview
-This is a simple Pair Review System implemented as a website. Each participant submits their assignment and reviews the partner's work via GitHub Pull Requests. The final website displays both assignments.
+This project demonstrates a simple Pair Review System using GitHub branches and Pull Requests. Two contributors collaborate on a single website by submitting and reviewing each other’s work before merging changes into the main branch.
 
 ## Participants & Roles
-- **Oluwadamilola (Dev):** Sets up repo, HTML/CSS, manages branches, merges Pull Requests
-- **Partner (Non-dev):** Writes assignment content, tests website, reviews PRs
+- **Oluwadamilola (Developer):** Project setup, HTML/CSS structure, branch management, and Pull Request reviews
+- **Partner (Content Contributor):** Writes assigned content, updates designated sections, and participates in Pull Request reviews
 
 ## Workflow
-1. Each participant creates a branch (e.g., `branch-yourname`, `branch-partnername`)  
-2. Add assignment content in `index.html` under the proper section  
-3. Open Pull Request to merge changes into `main`  
-4. Partner reviews PR using GitHub comments  
-5. Author makes changes if necessary and merges PR  
-6. Final website shows both assignments
+1. Each contributor creates a separate branch (e.g., `branch-oluwadamilola`, `branch-partner`)  
+2. Contributors add or update content in their assigned section of `index.html`  
+3. A Pull Request is opened to merge changes into the `main` branch  
+4. The other contributor reviews the Pull Request and provides feedback using GitHub comments  
+5. Revisions are made if necessary, and the Pull Request is merged  
+6. The final website reflects the reviewed contributions from both participants
 
-## Instructions
-- Replace the placeholder text in `index.html` with actual assignment content  
-- Commit and push your branch to GitHub  
-- Open PR to `main`  
-- Review partner’s PR and provide feedback
+## Usage Instructions
+- Clone or fork the repository  
+- Create a new branch for your contribution  
+- Update only your assigned section in `index.html`  
+- Commit and push changes to GitHub  
+- Open a Pull Request and review your partner’s submission
